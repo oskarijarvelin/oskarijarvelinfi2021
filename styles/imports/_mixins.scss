@@ -1,0 +1,67 @@
+// Calculate rem from font-size and adds fallback px size
+@mixin font-size($sizevalue: 1) {
+    font-size: $sizevalue * 1px;
+    font-size: ($sizevalue / 16) * 1rem;
+  }
+  
+  // Fallbacks
+  @mixin fallback($browser) {
+    @if $browser == ie {
+      @media all and (-ms-high-contrast: none) { @content ; }
+    } @else if $browser == edge {
+      @supports (display: -ms-grid) { @content ; }
+    }
+  }
+  
+  //Breakpoints for width
+  @mixin minwidth($px) {
+    @media (min-width: $px + px) { @content ; }
+  }
+  
+  //Breakpoints for height
+  @mixin minheight($px) {
+    @media (min-height: $px + px) { @content ; }
+  }
+  
+  // Breakpoint for width with min nand max
+  @mixin minmax($minpx, $maxpx) {
+    @media (min-width: $minpx + px) and (max-width: $maxpx + px) { @content ; }
+  }
+  
+  // Wrappers
+  @mixin wrapper($width: full) {
+    @if $width == full {
+      max-width: 1280px;
+    } @else if $width == half {
+      max-width: 670px;
+    } @else {
+      max-width: $width;
+    }
+  
+    margin: 0 auto;
+    width: calc(100% - 64px);
+  
+}
+
+// Grid-row
+@mixin grid-row($gapX, $gapY: $gapX, $justify: flex-start) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: $justify;
+    margin: 0; 
+    margin-bottom: -$gapY + px;
+    margin-right: -$gapX + px;
+}
+
+// Grid-column
+@mixin grid-column($width, $gapX, $gapY: $gapX) {
+    $gapX: $gapX + px;
+    $gapY: $gapY + px;
+    flex: 0 0 calc(#{$width} - #{$gapX});
+    margin: 0; 
+    margin-bottom: $gapY;
+    margin-right: $gapX;
+    max-width: calc(#{$width} - #{$gapX});
+    width: calc(#{$width} - #{$gapX});
+}

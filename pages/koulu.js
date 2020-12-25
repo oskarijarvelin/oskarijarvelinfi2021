@@ -6,13 +6,13 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-export default function Home() {
+export default function Koulu() {
   return (
-    <Layout title="Kuinka voin palvella?">
+    <Layout title="Koulu">
       <Container>
         <Row>
           <Col>
-            <h1>Kuinka voin palvella?</h1>
+            <h1>Koulu</h1>
           </Col>
         </Row>
       </Container>

@@ -1,0 +1,52 @@
+@import 'fonts';
+@import 'imports';
+
+html {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  overflow-x: hidden;
+
+  @include minwidth(960) {
+    font-size: 18px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed';
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 28px;
+
+  @include minwidth(480) {
+    font-size: 32px;
+  }
+
+  @include minwidth(960) {
+    font-size: 48px;
+  }
+
+  @include minwidth(1280) {
+    font-size: 56px;
+  }
+}
+
+h2 {
+  font-size: 28px;
+
+  @include minwidth(960) {
+    font-size: 42px;
+  }
+}
+
+.dropdown-toggle::after {
+  margin-left: 8px;
+  margin-bottom: -2px;
+}

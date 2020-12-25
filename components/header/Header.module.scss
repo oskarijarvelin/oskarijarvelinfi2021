@@ -1,0 +1,16 @@
+@import './styles/imports';
+
+.oskari {
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+    font-weight: 700;
+
+    @include minwidth(960) {
+        font-size: 30px;
+    }
+
+    a {
+        color: #101010;
+        text-decoration: none;
+    }
+}
