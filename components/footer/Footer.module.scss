@@ -1,11 +1,14 @@
 @import './styles/imports';
 
-.branding {
-  font-family: 'Roboto Condensed';
+.footer {
   font-size: 14px;
-  font-weight: 700;
 
   @include minwidth(960) {
     font-size: 16px;
   }
+}
+
+.branding {
+  font-family: 'Roboto Condensed';
+  font-weight: 700;
 }
