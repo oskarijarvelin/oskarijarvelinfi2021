@@ -5,15 +5,17 @@ import Footer from '../footer/footer'
 
 export default function Layout({children, title}) {
     return (
-        <main>
+        <>
             <Head>
                 <title>{title} - Oskari Järvelin</title>
                 <link rel="icon" href="/favicon.png" />
             </Head>
 
             <Header />
-            {children}
+            <main className={styles.main + ` py-5`}>
+                {children}
+            </main>
             <Footer />
-        </main>
+        </>
     )
 }
