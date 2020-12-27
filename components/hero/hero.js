@@ -6,11 +6,11 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Nav from 'react-bootstrap/Nav'
 
-export default function Hero({title, parent = false, breadcrumbs = true}) {
+export default function Hero({children, title, parent = false, breadcrumbs = true}) {
     return (
         <Container>
             <Row>
-                <Col>
+                <Col md={9} lg={7}>
                     {breadcrumbs &&
                     <Nav aria-label="breadcrumb">
                         <ol className="breadcrumb">
@@ -24,6 +24,8 @@ export default function Hero({title, parent = false, breadcrumbs = true}) {
                     }
 
                     <h1>{title}</h1>
+
+                    {children}
                 </Col>
             </Row>
         </Container>
