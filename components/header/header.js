@@ -28,9 +28,7 @@ export default function Header() {
                                 <Navlink href="/web-kehitys"><NavDropdown.Item href="/web-kehitys">Web-kehitys</NavDropdown.Item></Navlink>
                                 <Navlink href="/valaistus"><NavDropdown.Item href="/valaistus">Valaistus</NavDropdown.Item></Navlink>
                                 <Navlink href="/livestriimit"><NavDropdown.Item href="/livestriimit">Livestriimit</NavDropdown.Item></Navlink>
-                                <Navlink href="/tapahtumat"><NavDropdown.Item href="/tapahtumat">Tapahtumat</NavDropdown.Item></Navlink> 
-                                <NavDropdown.Divider />
-                                <Navlink href="/kanelin-kasvatus"><NavDropdown.Item href="/kanelin-kasvatus">Kanelin kasvatus</NavDropdown.Item></Navlink>
+                                <Navlink href="/tapahtumat"><NavDropdown.Item href="/tapahtumat">Tapahtumat</NavDropdown.Item></Navlink>
                             </NavDropdown>
 
                             <Navlink href="/opiskelu"><Nav.Link href="/opiskelu" className="fw-bolder px-lg-3">Opiskelu</Nav.Link></Navlink>
