@@ -7,8 +7,8 @@ import { Container, Row, Navbar, Nav, NavDropdown } from 'react-bootstrap'
 
 export default function Header() {
     return (
-        <div className="bg-light">
-            <Container className="p-0 py-lg-2 pe-lg-1">
+        <div className="bg-light sticky-top border-bottom">
+            <Container className="p-0 px-1 py-lg-2">
                 <Navbar expand="lg" className="p-0">
 
                     <Navbar.Brand className={styles.oskari + ` p-0`}>

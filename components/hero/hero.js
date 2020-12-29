@@ -7,9 +7,9 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Nav from 'react-bootstrap/Nav'
 
-export default function Hero({children, title, parent = false, breadcrumbs = true}) {
+export default function Hero({children, title, parent = false, breadcrumbs = true, image = false, imageWidth = false, imageHeight = false }) {
     return (
-        <Container>
+        <Container className="py-lg-5">
             <Row className="gx-5">
                 <Col md={10} lg={7}>
                     {breadcrumbs &&
@@ -29,11 +29,14 @@ export default function Hero({children, title, parent = false, breadcrumbs = tru
                     {children}
                 </Col>
 
-                <Col lg={5}>
-                    <div className="bg-light mt-5 mt-lg-0 shadow d-flex">
-                        <Image src="/ulkopotretit-4203.jpg" height={4016} width={6016} />
-                    </div>
-                </Col>
+                {image &&
+                    <Col lg={5}>
+                        <div className="bg-light mt-5 mt-lg-0 shadow d-flex">
+                            <Image src={image} height={imageHeight} width={imageWidth} />
+                        </div>
+                    </Col>
+                }
+
             </Row>
         </Container>
         )
