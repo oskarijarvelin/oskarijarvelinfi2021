@@ -15,11 +15,11 @@ export default function Hero({children, title, parent = false, breadcrumbs = tru
                     {breadcrumbs &&
                     <Nav aria-label="breadcrumb">
                         <ol className="breadcrumb">
-                            <li class="breadcrumb-item"><Link href="/"><a>Etusivu</a></Link></li>
+                            <li className="breadcrumb-item"><Link href="/"><a>Etusivu</a></Link></li>
                             {parent &&
-                            <li class="breadcrumb-item active">{parent}</li>
+                            <li className="breadcrumb-item active">{parent}</li>
                             }
-                            <li class="breadcrumb-item"></li>
+                            <li className="breadcrumb-item"></li>
                         </ol>
                     </Nav>
                     }

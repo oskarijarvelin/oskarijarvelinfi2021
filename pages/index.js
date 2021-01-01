@@ -166,7 +166,7 @@ export default function Home() {
           <Row className="row-cols-1 row-cols-sm-2 row-cols-xl-4 g-4">
 
             <Col>
-              <Card className="bg-light rounded-0">
+              <Card className="bg-light rounded-0 shadow">
                 <Link href="/tapahtumat"><a><Image src="/ulkopotretit-4203.jpg" height={4016} width={6016} className="card-img-top" /></a></Link>
                 <Card.Body>
                   <Card.Title className="pb-2 fs-6">
@@ -180,7 +180,7 @@ export default function Home() {
             </Col>
 
             <Col>
-              <Card className="bg-light rounded-0">
+              <Card className="bg-light rounded-0 shadow">
                 <Link href="/tapahtumat"><a><Image src="/ulkopotretit-4203.jpg" height={4016} width={6016} className="card-img-top" /></a></Link>
                 <Card.Body>
                   <Card.Title className="pb-2 fs-6">
@@ -194,7 +194,7 @@ export default function Home() {
             </Col>
 
             <Col>
-              <Card className="bg-light rounded-0">
+              <Card className="bg-light rounded-0 shadow">
                 <Link href="/tapahtumat"><a><Image src="/ulkopotretit-4203.jpg" height={4016} width={6016} className="card-img-top" /></a></Link>
                 <Card.Body>
                   <Card.Title className="pb-2 fs-6">
@@ -208,7 +208,7 @@ export default function Home() {
             </Col>
 
             <Col>
-              <Card className="bg-light rounded-0">
+              <Card className="bg-light rounded-0 shadow">
                 <Link href="/tapahtumat"><a><Image src="/ulkopotretit-4203.jpg" height={4016} width={6016} className="card-img-top" /></a></Link>
                 <Card.Body>
                   <Card.Title className="pb-2 fs-6">
