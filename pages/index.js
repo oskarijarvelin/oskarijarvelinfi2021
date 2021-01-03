@@ -70,7 +70,7 @@ export default function Home() {
                   Livestriimit
                 </Card.Title>
                 <Card.Text>
-                  Olen tehnyt livestriimejä, webinaareja ja verkkotapahtumia kansainvälisellä tasolla sekä kouluttanut niiden tekemistä mm. opettajille koulujen etäjuhlia varten.
+                  Teen livestriimejä, webinaareja ja verkkotapahtumia myös kansainvälisesti sekä koulutan niiden tekemistä mm. opettajille koulujen etäjuhlia varten.
                 </Card.Text>
                 <Link href="/livestriimit"><a className="card-link">Lue lisää<ArrowRight className="ms-1"/></a></Link>
               </Card>
@@ -102,11 +102,9 @@ export default function Home() {
           <Row className="g-5 pb-lg-5">
 
             <Col md={10} lg={6} className="pe-5">
-              <h3 className="mb-3">Web-kehitys ja livestriimit</h3>
+              <h3 className="mb-3">Web-kehitys</h3>
 
               <p>Osaamistani web-kehityksen parissa tarjoaa yksinoikeudella Oululainen Digimoguli Oy. Digimoguli on modernin markkinoinnin ja myynnin palveleva asiantuntijayritys, jolla on pitkä kokemus erilaisista digitaalisen markkinoinnin ja viestinnän projekteista sekä ratkaisuista.</p>
-
-              <p>Suosittelen lämpimästi myös Digimogulin striimauspalveluita, sillä pystymme palvelemaan tapahtumien toteuttamisessa kattavasti. Teknisesti vakuuttavan monikameratuotannon lisäksi pystymme auttamaan tapahtumia ilmeen ja sisällön suunnittelussa sekä tapahtuman markkinoinnissa hyödyntäen esimerkiksi moderneja myynnin ja markkinoinnin automaatioita.</p>
 
               <Button href="https://digimoguli.fi" target="_blank" rel="nofollow" className="d-inline-flex align-items-center mt-2 mb-2 me-2">
                 <CaretRightFill className="me-2" />
@@ -115,11 +113,9 @@ export default function Home() {
             </Col>
 
             <Col md={10} lg={6} className="pe-5">
-              <h3 className="mb-3">Valaistus ja tapahtumat</h3>
+              <h3 className="mb-3">Valaistus, tapahtumat ja livestriimit</h3>
 
-              <p>Toimin tapahtumatekniikan freelancerina, jolloin voit ostaa osaamistani suoraan minulta tai esimerkiksi Oululaisen Livepaletti Oy:n kautta. Kun tarvitset tapahtumaasi ammattiosaamisen lisäksi myös käytettävän kaluston, suosittelen kääntymään suoraan Livepaletin puoleen.</p>
-
-              <p>Livepaletilta löytyy tapahtuman äänentoiston, valaistuksen ja lavarakenteiden lisäksi uutena palveluna myös livestriimit monikameratuotantona. Livepaletti on toiminut pitkään alalla, omaa vuosikymmenten kokemuksen tapahtumien tekemisestä ja omistaa laadukasta kalustoa erilaisiin tarpeisiin. Livepalettin on valittu Vuoden Palveluntarjoajaksi Pohjoisen Parhaat 2018 -gaalassa.</p>
+              <p>Freelancer-teknikkona voit ostaa osaamistani suoraan minulta tai esimerkiksi Oululaisen Livepaletti Oy:n kautta. Livepaletti on toiminut pitkään alalla, omistaa laadukasta kalustoa erilaisiin tarpeisiin ja on valittu Vuoden Palveluntarjoajaksi Pohjoisen Parhaat 2018 -gaalassa.</p>
 
               <Button href="https://livepaletti.fi" target="_blank" rel="nofollow" className="d-inline-flex align-items-center mt-2 mb-2 me-2">
                 <CaretRightFill className="me-2" />
@@ -137,7 +133,7 @@ export default function Home() {
               <h2 className="m-0 pb-5 text-center">Toimintani kulmakivet</h2>
             </Col>
           </Row>
-          <Row className="text-center row-cols-1 row-cols-lg-3 g-5 pb-5">
+          <Row className="text-center row-cols-1 row-cols-lg-3 g-5 pt-4 pb-5">
             <Col>
               <p className="h1 mb-4"><ClockHistory /></p>
               <h5>Joustava palvelu</h5>
@@ -167,13 +163,17 @@ export default function Home() {
 
             <Col>
               <Card className="bg-light rounded-0 shadow">
-                <Link href="/tapahtumat"><a><Image src="/ulkopotretit-4203.jpg" height={4016} width={6016} className="card-img-top" /></a></Link>
+                <Link href="https://digimoguli.fi/blogi/wordpress-15-tarkeinta-asiaa-mita-sinun-tulee-tietaa/">
+                  <a target="_blank" rel="nofollow">
+                    <Image src="/blogi4.jpg" height={4016} width={6016} className="card-img-top" />
+                  </a>
+                </Link>
                 <Card.Body>
                   <Card.Title className="pb-2 fs-6">
-                    Viisi viime vuotta olen toiminut ammattimaisesti freelancerina
+                    WordPress – 15 tärkeintä asiaa, mitä sinun tulee tietää
                   </Card.Title>
                   <Card.Text className="text-muted">
-                    01.01.2020
+                    15.12.2020
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -181,13 +181,17 @@ export default function Home() {
 
             <Col>
               <Card className="bg-light rounded-0 shadow">
-                <Link href="/tapahtumat"><a><Image src="/ulkopotretit-4203.jpg" height={4016} width={6016} className="card-img-top" /></a></Link>
+                <Link href="https://digimoguli.fi/blogi/wordpress-kotisivut-miksi-ulkoistaa-huolenpito/">
+                  <a target="_blank" rel="nofollow">
+                    <Image src="/blogi3.jpg" height={4016} width={6016} className="card-img-top" />
+                  </a>
+                </Link>
                 <Card.Body>
                   <Card.Title className="pb-2 fs-6">
-                    Viisi viime vuotta olen toiminut ammattimaisesti freelancerina
+                    WordPress-kotisivut – miksi ulkoistaa huolenpito?
                   </Card.Title>
                   <Card.Text className="text-muted">
-                    01.01.2020
+                    25.03.2020
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -195,13 +199,17 @@ export default function Home() {
 
             <Col>
               <Card className="bg-light rounded-0 shadow">
-                <Link href="/tapahtumat"><a><Image src="/ulkopotretit-4203.jpg" height={4016} width={6016} className="card-img-top" /></a></Link>
+                <Link href="https://digimoguli.fi/blogi/laadukkaat-verkkosivut-ovat-hyvaa-asiakaspalvelua/">
+                  <a target="_blank" rel="nofollow">
+                    <Image src="/blogi2.jpg" height={4016} width={6016} className="card-img-top" />
+                  </a>
+                </Link>
                 <Card.Body>
                   <Card.Title className="pb-2 fs-6">
-                    Viisi viime vuotta olen toiminut ammattimaisesti freelancerina
+                    Laadukkaat verkkosivut ovat hyvää asiakaspalvelua
                   </Card.Title>
                   <Card.Text className="text-muted">
-                    01.01.2020
+                    03.03.2020
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -209,13 +217,17 @@ export default function Home() {
 
             <Col>
               <Card className="bg-light rounded-0 shadow">
-                <Link href="/tapahtumat"><a><Image src="/ulkopotretit-4203.jpg" height={4016} width={6016} className="card-img-top" /></a></Link>
+                <Link href="https://digimoguli.fi/blogi/wordpress-52-turvallisempaa-yllapitoa-jokaiselle/">
+                  <a target="_blank" rel="nofollow">
+                    <Image src="/blogi1.jpg" height={4016} width={6016} className="card-img-top" />
+                  </a>
+                </Link>
                 <Card.Body>
                   <Card.Title className="pb-2 fs-6">
-                    Viisi viime vuotta olen toiminut ammattimaisesti freelancerina
+                    WordPress 5.2 – Helpompaa ja turvallisempaa ylläpitoa
                   </Card.Title>
                   <Card.Text className="text-muted">
-                    01.01.2020
+                    23.10.2019
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -224,7 +236,7 @@ export default function Home() {
           </Row>
           <Row className="pt-4 pb-lg-5">
             <Col className="d-flex align-items-center justify-content-end py-0">
-              <Button href="/blogi" variant="outline-primary" size="sm" className="d-inline-flex align-items-center m-0">
+              <Button href="https://digimoguli.fi/kirjoittaja/oskari/" target="_blank" rel="nofollow" variant="outline-primary" size="sm" className="d-inline-flex align-items-center m-0">
                 Näytä kaikki
               </Button>
             </Col>
