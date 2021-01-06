@@ -165,7 +165,7 @@ export default function Home() {
               <Card className="bg-light rounded-0 shadow">
                 <Link href="https://digimoguli.fi/blogi/wordpress-15-tarkeinta-asiaa-mita-sinun-tulee-tietaa/">
                   <a target="_blank" rel="nofollow">
-                    <Image src="/blogi4.jpg" height={4016} width={6016} className="card-img-top" />
+                    <Image src="/blogi4.jpg" height={4016} width={6016} className="card-img-top rounded-0" />
                   </a>
                 </Link>
                 <Card.Body>
@@ -173,7 +173,7 @@ export default function Home() {
                     WordPress – 15 tärkeintä asiaa, mitä sinun tulee tietää
                   </Card.Title>
                   <Card.Text className="text-muted">
-                    15.12.2020
+                    <small>15.12.2020</small> | <small>digimoguli.fi</small>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -183,7 +183,7 @@ export default function Home() {
               <Card className="bg-light rounded-0 shadow">
                 <Link href="https://digimoguli.fi/blogi/wordpress-kotisivut-miksi-ulkoistaa-huolenpito/">
                   <a target="_blank" rel="nofollow">
-                    <Image src="/blogi3.jpg" height={4016} width={6016} className="card-img-top" />
+                    <Image src="/blogi3.jpg" height={4016} width={6016} className="card-img-top rounded-0" />
                   </a>
                 </Link>
                 <Card.Body>
@@ -191,7 +191,7 @@ export default function Home() {
                     WordPress-kotisivut – miksi ulkoistaa huolenpito?
                   </Card.Title>
                   <Card.Text className="text-muted">
-                    25.03.2020
+                    <small>25.03.2020</small> | <small>digimoguli.fi</small>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -201,7 +201,7 @@ export default function Home() {
               <Card className="bg-light rounded-0 shadow">
                 <Link href="https://digimoguli.fi/blogi/laadukkaat-verkkosivut-ovat-hyvaa-asiakaspalvelua/">
                   <a target="_blank" rel="nofollow">
-                    <Image src="/blogi2.jpg" height={4016} width={6016} className="card-img-top" />
+                    <Image src="/blogi2.jpg" height={4016} width={6016} className="card-img-top rounded-0" />
                   </a>
                 </Link>
                 <Card.Body>
@@ -209,7 +209,7 @@ export default function Home() {
                     Laadukkaat verkkosivut ovat hyvää asiakaspalvelua
                   </Card.Title>
                   <Card.Text className="text-muted">
-                    03.03.2020
+                    <small>03.03.2020</small> | <small>digimoguli.fi</small>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -219,7 +219,7 @@ export default function Home() {
               <Card className="bg-light rounded-0 shadow">
                 <Link href="https://digimoguli.fi/blogi/wordpress-52-turvallisempaa-yllapitoa-jokaiselle/">
                   <a target="_blank" rel="nofollow">
-                    <Image src="/blogi1.jpg" height={4016} width={6016} className="card-img-top" />
+                    <Image src="/blogi1.jpg" height={4016} width={6016} className="card-img-top rounded-0" />
                   </a>
                 </Link>
                 <Card.Body>
@@ -227,7 +227,7 @@ export default function Home() {
                     WordPress 5.2 – Helpompaa ja turvallisempaa ylläpitoa
                   </Card.Title>
                   <Card.Text className="text-muted">
-                    23.10.2019
+                    <small>23.10.2019</small> | <small>digimoguli.fi</small>
                   </Card.Text>
                 </Card.Body>
               </Card>
