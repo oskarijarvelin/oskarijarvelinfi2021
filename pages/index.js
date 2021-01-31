@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <Layout title="Kuinka voin palvella?">
-      <Hero title="Kuinka voin palvella?" breadcrumbs={false} image="/ulkopotretit-4203.jpg" imageHeight={4016} imageWidth={6016}>
+      <Hero title="Kuinka voin palvella?" breadcrumbs={false} image="/hero-index.jpg" imageHeight={465} imageWidth={696}>
         <p className="lead py-3">Olen <Moment toNow ago filter={onlyYears}>1994-09-29</Moment>-vuotias <Link href="https://digimoguli.fi/"><a className="fw-bolder" target="_blank" rel="nofollow">Digimogulin</a></Link> Web Developer ja tapahtumatekniikan moniosaaja Oulusta. Laaja-alaisesta oppimisen nälästä on syntynyt monipuolinen osaaminen, jota olen viime vuosina laajentanut aiempaakin määrätietoisemmin ja tavoitteellisemmin.</p>
 
         <Button href="tel:+35845 898 3883" className="d-inline-flex align-items-center mb-2 me-2">
@@ -165,7 +165,7 @@ export default function Home() {
               <Card className="bg-light rounded-0 shadow">
                 <Link href="https://digimoguli.fi/blogi/wordpress-15-tarkeinta-asiaa-mita-sinun-tulee-tietaa/">
                   <a target="_blank" rel="nofollow">
-                    <Image src="/blogi4.jpg" height={4016} width={6016} className="card-img-top rounded-0" />
+                    <Image src="/blogi4.jpg" height={299} width={532} className="card-img-top rounded-0" />
                   </a>
                 </Link>
                 <Card.Body>
@@ -183,7 +183,7 @@ export default function Home() {
               <Card className="bg-light rounded-0 shadow">
                 <Link href="https://digimoguli.fi/blogi/wordpress-kotisivut-miksi-ulkoistaa-huolenpito/">
                   <a target="_blank" rel="nofollow">
-                    <Image src="/blogi3.jpg" height={4016} width={6016} className="card-img-top rounded-0" />
+                    <Image src="/blogi3.jpg" height={299} width={532} className="card-img-top rounded-0" />
                   </a>
                 </Link>
                 <Card.Body>
@@ -201,7 +201,7 @@ export default function Home() {
               <Card className="bg-light rounded-0 shadow">
                 <Link href="https://digimoguli.fi/blogi/laadukkaat-verkkosivut-ovat-hyvaa-asiakaspalvelua/">
                   <a target="_blank" rel="nofollow">
-                    <Image src="/blogi2.jpg" height={4016} width={6016} className="card-img-top rounded-0" />
+                    <Image src="/blogi2.jpg" height={299} width={532} className="card-img-top rounded-0" />
                   </a>
                 </Link>
                 <Card.Body>
@@ -219,7 +219,7 @@ export default function Home() {
               <Card className="bg-light rounded-0 shadow">
                 <Link href="https://digimoguli.fi/blogi/wordpress-52-turvallisempaa-yllapitoa-jokaiselle/">
                   <a target="_blank" rel="nofollow">
-                    <Image src="/blogi1.jpg" height={4016} width={6016} className="card-img-top rounded-0" />
+                    <Image src="/blogi1.jpg" height={299} width={532} className="card-img-top rounded-0" />
                   </a>
                 </Link>
                 <Card.Body>

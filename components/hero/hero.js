@@ -24,7 +24,7 @@ export default function Hero({children, title, parent = false, breadcrumbs = tru
                     </Nav>
                     }
 
-                    <h1>{title}</h1>
+                    <h1 className="my-3">{title}</h1>
 
                     {children}
                 </Col>

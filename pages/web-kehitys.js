@@ -74,21 +74,15 @@ export default function Webkehitys() {
       <Container>
           <Row className="pt-lg-5">
             <Col lg={12}>
-              <h2 className="m-0 pb-5">Hyödynnä laaja osaamiseni</h2>
+              <h2 className="m-0 pb-5">Työotsikko</h2>
             </Col>
           </Row>
           <Row className="g-5 pb-lg-5">
 
             <Col md={10} lg={6} className="pe-5">
-              <h3 className="mb-3">Web-kehitys</h3>
+              <h3 className="mb-3">Oikean teknologian valinta</h3>
 
-              <p>Osaamistani web-kehityksen parissa tarjoaa yksinoikeudella Oululainen Digimoguli Oy. Digimoguli on modernin markkinoinnin ja myynnin palveleva asiantuntijayritys, jolla on pitkä kokemus erilaisista digitaalisen markkinoinnin ja viestinnän projekteista sekä ratkaisuista.</p>
-            </Col>
-
-            <Col md={10} lg={6} className="pe-5">
-              <h3 className="mb-3">Valaistus, tapahtumat ja livestriimit</h3>
-
-              <p>Freelancer-teknikkona voit ostaa osaamistani suoraan minulta tai esimerkiksi Oululaisen Livepaletti Oy:n kautta. Livepaletti on toiminut pitkään alalla, omistaa laadukasta kalustoa erilaisiin tarpeisiin ja on valittu Vuoden Palveluntarjoajaksi Pohjoisen Parhaat 2018 -gaalassa.</p>
+              <p>Webteknologiat kehittyvät nopeampaa kuin ikinä ennen</p>
             </Col>
 
           </Row>

@@ -10,7 +10,7 @@ export default function Opiskelu() {
 
   return (
     <Layout title="Opiskelu">
-      <Hero title="Opiskelu" image="/ulkopotretit-4200.jpg" imageHeight={4016} imageWidth={6016}>
+      <Hero title="Opiskelu" image="/hero-opiskelu.jpg" imageHeight={465} imageWidth={696}>
         <p className="lead py-3">Opiskelen <b><abbr title="Oulun Ammattikorkeakoulu">OAMK</abbr>:ssa</b> <Link href="https://www.oamk.fi/fi/koulutus/ammattikorkeakoulututkinnot/tradenomi-amk-tietojenkasittely"><a className="fw-bolder" target="_blank" rel="nofollow">tietojenkäsittelyn Tradenomiksi</a></Link> monimuoto-toteutuksena osallistumalla verkko-opetukseen kolmena arki-iltana viikossa. Tutkinnon laajuus on 210 op eli 3,5 vuotta, joista yksi vuosi opiskellaan englanniksi. Koulutus suuntautuu digitaalisten tuotteiden ja palveluiden kehittämiseen. Taustaltani olen vuoden 2013 <b>ylioppilas</b> Limingan lukiosta.</p>
       </Hero>
 
