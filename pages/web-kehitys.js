@@ -8,7 +8,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap'
 export default function Webkehitys() {
   return (
     <Layout title="Web-kehitys">
-      <Hero title="Web-kehitys" parent="Osaaminen" image="/ulkopotretit-4200.jpg" imageHeight={4016} imageWidth={6016}>
+      <Hero title="Web-kehitys" parent="Osaaminen" image="/hero-web-kehitys.jpg" imageHeight={435} imageWidth={696}>
         <p className="lead py-3">Työskentelen <Link href="https://digimoguli.fi"><a className="fw-bolder" target="_blank" rel="nofollow">Digimogulin</a></Link> Web Developerina ja vastuualueisiini kuuluvat web-kehityksen lisäksi integraatioihin, versionhallintaan ja tietoturvaan liittyvät tehtävät. Erikoisosaamistani ovat sivustojen nopeus, turvallisuus, ja saavutettavuus.</p>
       </Hero>
       <div className="bg-light my-5">
@@ -73,18 +73,10 @@ export default function Webkehitys() {
 
       <Container>
           <Row className="pt-lg-5">
-            <Col lg={12}>
-              <h2 className="m-0 pb-5">Työotsikko</h2>
+            <Col lg={7}>
+              <h2 className="m-0 pb-3">Web-teknologiat</h2>
+              <p className="lead pb-5">Webteknologiat kehittyvät nopeampaa kuin ikinä ennen ja rima verkkopalvelun laadun suhteen nousee yhä ylemmäs. Ajantasaisen osaamisen ylläpitäminen vaatii yhä aktiivisempaa ja määrätietoisempaa otetta webkehityksestä. Samalla kun palveluiden hinnat laskevat, nousee asiantuntijan osaamisen arvo.</p>
             </Col>
-          </Row>
-          <Row className="g-5 pb-lg-5">
-
-            <Col md={10} lg={6} className="pe-5">
-              <h3 className="mb-3">Oikean teknologian valinta</h3>
-
-              <p>Webteknologiat kehittyvät nopeampaa kuin ikinä ennen</p>
-            </Col>
-
           </Row>
         </Container>
     </Layout>
