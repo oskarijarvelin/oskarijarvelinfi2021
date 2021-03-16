@@ -4,7 +4,7 @@ import Hero from '../components/hero/hero'
 import { Container, Row, Col, ProgressBar } from 'react-bootstrap'
 
 export default function Opiskelu() {
-  var op = 33
+  var op = 43
   var progress = Math.round(op / 210 * 100)
   var color = (op === 210) ? 'success' : 'primary'
 
